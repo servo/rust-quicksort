@@ -1,0 +1,15 @@
+[package]
+name = "quicksort"
+version = "1.0.0"
+authors = ["Simon Sapin <simon.sapin@exyr.org>"]
+license = "MPL-2.0"
+description = "A quicksort implementation for in-place sorting."
+repository = "https://github.com/SimonSapin/rust-quicksort"
+
+[lib]
+name = "quicksort"
+path = "lib.rs"
+doctest = false
+
+[dev-dependencies]
+rand = "0.3"
