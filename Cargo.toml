@@ -5,6 +5,7 @@ authors = ["Simon Sapin <simon.sapin@exyr.org>"]
 license = "MPL-2.0"
 description = "A quicksort implementation for in-place sorting."
 repository = "https://github.com/servo/rust-quicksort"
+documentation = "http://doc.servo.org/quicksort/"
 
 [lib]
 name = "quicksort"
