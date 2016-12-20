@@ -1,6 +1,6 @@
 [package]
 name = "quicksort"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["Simon Sapin <simon.sapin@exyr.org>"]
 license = "MPL-2.0"
 description = "A quicksort implementation for in-place sorting."
