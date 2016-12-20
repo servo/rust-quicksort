@@ -3,8 +3,11 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 //! In-place sorting.
+#![cfg_attr(not(test), no_std)]
+#[cfg(test)]
+extern crate std as core;
 
-use std::cmp::Ordering;
+use core::cmp::Ordering;
 
 fn quicksort_helper<T, F>(arr: &mut [T], left: isize, right: isize, compare: &F)
 where F: Fn(&T, &T) -> Ordering {
