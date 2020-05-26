@@ -13,4 +13,4 @@ path = "lib.rs"
 doctest = false
 
 [dev-dependencies]
-rand = "0.3"
+rand = "0.7"
